@@ -1,0 +1,15 @@
+{
+  "name": "neugelb-test",
+  "private": true,
+  "author": "Neugelb Studios GmbH",
+  "version": "0.0.1",
+  "description": "Test",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jurekNeugelb/neugelb-test.git"
+  },
+  "peerDependencies": {
+    "react": "^15.4.0"
+  }
+}
