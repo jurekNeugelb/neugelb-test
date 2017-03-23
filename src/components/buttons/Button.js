@@ -1,10 +1,13 @@
 import React, {Component, PropTypes} from 'react';
 
-class FlatButton extends Component {
+/**
+ * The is the standard button of the Commerzbank
+ */
+class Button extends Component {
 
   propTypes = {
     /**
-     * The label of the buttopn.
+     * The label of the button.
      */
     label: PropTypes.string,
     /**

@@ -1,8 +1,7 @@
 {
   "name": "neugelb-test",
-  "private": true,
   "author": "Neugelb Studios GmbH",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Test",
   "main": "./src/index.js",
   "repository": {
