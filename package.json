@@ -3,7 +3,7 @@
   "author": "Neugelb Studios GmbH",
   "version": "0.0.10",
   "description": "Test",
-  "main": "./src/neugelb-test.js",
+  "main": "neugelb-test.js",
   "scripts": {
     "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
   },
