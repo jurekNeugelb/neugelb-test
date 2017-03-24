@@ -5,23 +5,27 @@ import React, {Component, PropTypes} from 'react';
  */
 class Button extends Component {
 
-  propTypes = {
-    /**
-     * The label of the button.
-     */
-    label: PropTypes.string,
-    /**
-     * The children of the button.
-     */
-    children: PropTypes.node
-  };
-
-  defaultProps = {
-
-  };
-
   render() {
-    return (<input type="button" className="button-primary">{children}</input>);
+    return (
+      <input type="button" className="button-primary">{children}</input>
+    );
   }
 
 };
+
+Button.propTypes = {
+  /**
+   * The label of the button.
+   */
+  label: PropTypes.string,
+  /**
+   * The children of the button.
+   */
+  children: PropTypes.node
+};
+
+Button.defaultProps = {
+
+};
+
+export default Button;
