@@ -1,6 +1,4 @@
 language: node_js
-node_js:
-  - "0.0"
 deploy:
 api_key:
   secure: "906e2aa6-015d-462b-a71b-b1d26b907f39"
