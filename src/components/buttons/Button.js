@@ -19,7 +19,7 @@ Button.propTypes = {
    */
   label: PropTypes.string,
   /**
-   * The children of the button.
+   * The children of the button, will be used instead of a label.
    */
   children: PropTypes.node
 };
